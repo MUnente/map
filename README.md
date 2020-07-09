@@ -4,11 +4,11 @@ A simple map made to search places around the world.
 
 ## Features
 
-* __ReactJS__ — A JavaScript library for building user interfaces
-* __Leaflet__ — A JavaScript library for interactive maps
-* __React—Leaflet__ — React components for Leaflet maps
-* __Axios__ — Promise based HTTP client for the browser
-* __Geocoding and Search API__ — API made for convert address to coordinates by HERE Technologies
+* __ReactJS__ - A JavaScript library for building user interfaces
+* __Leaflet__ - A JavaScript library for interactive maps
+* __React—Leaflet__ - React components for Leaflet maps
+* __Axios__ - Promise based HTTP client for the browser
+* __Geocoding and Search API__ - API made for convert address to coordinates by HERE Technologies
 
 ## How to use the app?
 
@@ -36,6 +36,6 @@ geocode
 
 For more details, see the [documentation](https://developer.here.com/documentation).
 
-### Observations
+### Sources
 
 App icon made by [Vectors Market](https://www.flaticon.com/authors/vectors-market "Vectors Market") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
