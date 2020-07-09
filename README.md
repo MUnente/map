@@ -27,8 +27,7 @@ After, click in your project:
 ![Your Project](./.github/my-projects.png)
 
 And now, create an API key to use in your project and click in copy:
-![API Key][key]
-[key]: ./.github/project-config.png
+![API Key](./.github/project-config.png)
 
 To use the API, you need send the request using this link (without curly brackets): https://geocode.search.hereapi.com/v1/
 geocode
