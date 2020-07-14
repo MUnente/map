@@ -2,6 +2,8 @@
 
 A simple map made to search places around the world.
 
+![App](./.github/app.gif)
+
 ## Features
 
 * __ReactJS__ — A JavaScript library for building user interfaces
@@ -12,7 +14,7 @@ A simple map made to search places around the world.
 
 ## How to use the app?
 
-When you open the app for the first time, click at allow browser to access your geolocation to map load your current position. To search a place, click on text box, type the address and press magnifying glass icon :mag: or Enter key (Examples: 226 King St, Redwood City, CA or R. Pitágoras, 353 - Cidade Universitária, Campinas-SP). After, a marker will show the location for you.
+When you open the app for the first time, click at allow browser to access your geolocation to map load your current position. To search a place, click on text box, type the address and press magnifying glass icon :mag: or Enter key (Examples: 226 King St, Redwood City, CA or R. Pitágoras, 353 - Cidade Universitária, Campinas-SP). After, an address's list about your search will appear. Click in one option and a marker will show the location for you.
 
 ## How to use the API?
 

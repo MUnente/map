@@ -10,8 +10,6 @@ export default function App() {
 
   const [resultListAddress, setResultListAddress] = useState([]);
   const [resultListOperator, setResultListOperator] = useState([false]);
-  
-  // console.log(resultListAddress);
 
   const [userPosition, setUserPosition] = useState([0, 0]);
   const [decimalDegree, setDecimalDegree] = useState([0, 0]);
