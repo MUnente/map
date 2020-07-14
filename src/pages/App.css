@@ -3,14 +3,17 @@ body {
     padding: 0;
 }
 
-.search-box {
+#field {
   position: absolute;
-  top: 15px;
-  left: 15px;
+}
+
+.search-box {
+  margin-top: 15px;
+  margin-left: 15px;
   background: #F0F0F5;
   height: 40px;
-  width: 325px;
-  border-radius: 8px;
+  width: 420px;
+  border-radius: 10px 10px 0 0;
   padding: 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
@@ -24,7 +27,7 @@ body {
   color: black;
   font-size: 14px;
   line-height: 40px;
-  width: 75%;
+  width: 85%;
 }
 
 .search-box input::placeholder {
@@ -40,6 +43,60 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-left: 15px;
+  width: 420px;
+  background: #F0F0F5;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.result-box .item-address {
+  padding: 10px 0px 10px 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.result-box .item-address:hover {
+  background: #E6E6FA;
+}
+
+.result-box .item-address span {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c7c7c;
+}
+
+.result-box .item-address div {
+  margin: 0;
+  max-width: 420px;
+  max-height: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.result-box .btn-clear-fields {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin: 10px 0 0 0;
+}
+
+.result-box .btn-clear-fields:hover {
+  color: red;
   cursor: pointer;
 }
 
