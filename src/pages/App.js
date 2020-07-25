@@ -57,7 +57,7 @@ export default function App() {
       api.get(`geocode`, {
         params: {
           q: uri,
-          apiKey: '',
+          apiKey: 'YOUR_API_KEY',
         }
       }).then(response => {
         if (response.data.items.length === 0) {
