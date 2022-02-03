@@ -41,3 +41,7 @@ For more details, see the [documentation](https://developer.here.com/documentati
 ### Sources
 
 App icon made by [Vectors Market](https://www.flaticon.com/authors/vectors-market "Vectors Market") from [www.flaticon.com](https://www.flaticon.com/ "Flaticon")
+
+### Author
+
+Made by [Murilo Manente](https://www.linkedin.com/in/murilo-manente/)
